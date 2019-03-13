@@ -30,6 +30,6 @@ val sharedPrefModule = module {
 
 fun createNetworkClient(): Retrofit {
     return Retrofit.Builder()
-        .baseUrl("")
+        .baseUrl("https://swapi.co/api/")
         .build()
 }
